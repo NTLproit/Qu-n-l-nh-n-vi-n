@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 157px;
+    left: 8.3px;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+span.nav{
+    font-size:25px;
+    cursor:pointer;
+    color: red;
+    margin-left: 10px;
+}
+
+p.helloUser{
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+}
+h3.wellcome{
+    margin-left: 20px;
+}
+img.header{
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+hr.hr1{
+    width: all;
+}
+td.td1{
+    font-size: 20px;
+    font-weight: bold;
+}
+input.txadd{
+    height: 20px;
+    width: 200px;
+}
+select.sl1{
+    height: 25px;
+    width: 205px;
+}
+
+textarea.ta1{
+    width: 200px;
+    height: 50px;
+}
+#btn{
+    border-radius: 6px;
+    height: 28px;
+    width: 80px;
+    margin-left: 150px;
+    margin-right: 10px;
+    background-color: grey;
+    font-weight: bold;
+}
+#btn1{
+    border-radius: 6px;
+    height: 28px;
+    width: 80px;
+    margin-right: 10px;
+    background-color: grey;
+    font-weight: bold;
+}
+
+input.btn2{
+	border-radius: 6px;
+    height: 28px;
+    width: 80px;
+    margin-right: 10px;
+    background-color: grey;
+    font-weight: bold;
+}
+td.title{
+	font-size:30px;
+	text-align: center;
+}
+.title1{
+	text-align: center;
+	width: 350px;
+	
+}
+.title2{
+	text-align: center;
+	width: 250px;
+	
+}
+.title3{
+	text-align: center;
+	width: 120px;
+	
+}
+font.f1{
+	color: white;
+}
+span.validate{
+	color: red;
+}
